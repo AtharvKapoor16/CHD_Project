@@ -12,11 +12,11 @@ from sklearn.model_selection import train_test_split
 
 # Define constants
 IMAGE_SIZE = (224, 224)
-DATA_DIR = "VSD_Frames"
+DATA_DIR = "Directory_With_Frames"
 BATCH_SIZE = 32
 EPOCHS = 10
 LEARNING_RATE = 0.001
-MODEL_PATH = "chd_vs_vsd_densenet264.pth"
+MODEL_PATH = "model_name.pth"
 
 # Define transformations
 transform = transforms.Compose([
